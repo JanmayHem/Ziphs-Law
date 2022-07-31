@@ -14,11 +14,11 @@ This includes the Python code for Ziph's Law and how we can find Lambda, and k f
 • Then we make a scatter plot, find the line of best fit, and then plot them both.
 
 • Then we can easily get the slope and intercept of the straight line. Why do we need this?
-    f(r) = c*r^(-alpha)
-    Taking log on both sides,
-    ln(f) = ln(c) - (alpha)(ln(r))
-    ln(f) = -(alpha)*ln(r) + k
-    this is similar to y = m*x + c, where f(r) -> frequency of word, r is the rank, c is the corpus constant, alpha is the corpus exponenet, and ln is natural logarithm.
+    <br>f(r) = c*r^(-alpha)
+    <br>Taking log on both sides,
+    <br>ln(f) = ln(c) - (alpha)(ln(r))
+    <br>ln(f) = -(alpha)*ln(r) + k
+    <br>this is similar to y = m*x + c, where f(r) -> frequency of word, r is the rank, c is the corpus constant, alpha is the corpus exponenet, and ln is natural logarithm.
 
 • Hence we get the corpus constanmt and exponent.
 
