@@ -3,6 +3,7 @@ from collections import Counter
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from scipy.stats import linregress
+from wordcloud import WordCloud
 
 # Importing
 import matplotlib.pyplot as plt
@@ -79,7 +80,6 @@ if __name__ == '__main__':
         if word not in stopwords.words('english'):
             filtered[word] = word_freq[word]
 
-    from wordcloud import WordCloud
     word_cloud = WordCloud(background_color='white', max_words=100, max_font_size=50).generate_from_frequencies(
         filtered)
     plt.figure(figsize=(10, 8), facecolor=None)
@@ -91,5 +91,5 @@ if __name__ == '__main__':
     book_open.close()
 
 # ----------------------------------------------------------------------------------------------------------------------
-# By- Janmay Joshi (@JanMayhem)
+# By- Janmay Joshi (@JanMayhem) <3
 # ----------------------------------------------------------------------------------------------------------------------
