@@ -1,5 +1,5 @@
 # Ziphs-Law
-This includes the Python code for Ziph's Law and how we can find Lambda, and k from any Book. 
+This includes the Python code for Ziph's Law and how we can find Lambda, and k for any Book. 
 
 • We first choose our favourite book, I downloaded the copies (book1.txt and book2.txt) from Project Gutenberg (https://www.gutenberg.org/). 
 
