@@ -23,3 +23,14 @@ This includes the Python code for Ziph's Law and how we can find Lambda, and k f
 • Hence we get the corpus constanmt and exponent.
 
 • Then we make a word cloud which shows the most frequent word as the word with maximum size. We use NLTK to filter out stopwords, and only view the top 100 most frequent non-stopwords.  
+
+NOTE: All the files which have 1 are the files/graphs/results of Book1 (SCIENCE AND THE MODERN WORLD) and others are for Book2 (THE TEMPLE OF EARTH). 
+
+Final results: 
+    Book 1:
+        Corpus constant = -0.0008469389005417712
+        Corpus exponent = 3.3660625269238285
+    Book 2:
+        Corpus constant = -0.0012677967117418905
+        Corpus exponent = 2.395476110781482
+        
