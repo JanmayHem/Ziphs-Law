@@ -27,10 +27,10 @@ This includes the Python code for Ziph's Law and how we can find Lambda, and k f
 NOTE: All the files which have 1 are the files/graphs/results of Book1 (SCIENCE AND THE MODERN WORLD) and others are for Book2 (THE TEMPLE OF EARTH). 
 
 Final results: 
-    Book 1:
-        Corpus constant = -0.0008469389005417712
-        Corpus exponent = 3.3660625269238285
-    Book 2:
-        Corpus constant = -0.0012677967117418905
-        Corpus exponent = 2.395476110781482
+    <br>Book 1:
+        <br>Corpus constant = -0.0008469389005417712
+        <br>Corpus exponent = 3.3660625269238285
+    <br>Book 2:
+        <br>Corpus constant = -0.0012677967117418905
+        <br>Corpus exponent = 2.395476110781482
         
