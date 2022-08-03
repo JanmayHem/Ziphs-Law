@@ -32,7 +32,7 @@ if __name__ == '__main__':
     print('Number of words in text file :', number_of_words)
 
     # Converting file to include only small letters and formatting it
-    words = [word.strip('_*-.,!;()[]') for word in words]
+    words = [word.strip("_*-.,!;()[]':`") for word in words]
     words = [word.replace("'s", '') for word in words]
     with open(r'words_list.txt', 'w', encoding='utf8') as fp:
         for item in words:
