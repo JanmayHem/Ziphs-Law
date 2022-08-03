@@ -37,6 +37,8 @@ if __name__ == '__main__':
     with open(r'words_list.txt', 'w', encoding='utf8') as fp:
         for item in words:
             fp.write("%s\n" % item)
+    word_cloud = count_word(r'words_list1.txt')
+
 
     # Applying Potters Stemmer
     ps = PorterStemmer()
@@ -76,9 +78,9 @@ if __name__ == '__main__':
 
     # Making the Word cloud
     filtered = {}
-    for word in word_freq:
+    for word in word_cloud:
         if word not in stopwords.words('english'):
-            filtered[word] = word_freq[word]
+            filtered[word] = word_cloud[word]
 
     word_cloud = WordCloud(background_color='white', max_words=100, max_font_size=50).generate_from_frequencies(
         filtered)
