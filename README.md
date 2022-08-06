@@ -15,11 +15,11 @@ This includes the Python code for Ziph's Law and how we can find Lambda, and k f
 
 • Then we can easily get the slope and intercept of the straight line. Why do we need this?
     
-    <br>f(r) = c*r^(-alpha)
-    <br>Taking log on both sides,
-    <br>ln(f) = ln(c) - (alpha)(ln(r))
-    <br>ln(f) = -(alpha)*ln(r) + k
-    <br>this is similar to y = m*x + c, where f(r) -> frequency of word, r is the rank, c is the corpus constant, alpha is the corpus exponenet, and ln is natural logarithm.
+    f(r) = c*r^(-alpha)
+    Taking log on both sides,
+    ln(f) = ln(c) - (alpha)(ln(r))
+    ln(f) = -(alpha)*ln(r) + k
+    this is similar to y = m*x + c, where f(r) -> frequency of word, r is the rank, c is the corpus constant, alpha is the corpus exponenet, and ln is natural logarithm.
 
 • Hence we get the corpus constanmt and exponent.
 
@@ -29,11 +29,11 @@ NOTE: All the files which have 1 are the files/graphs/results of Book1 (SCIENCE 
 
 Final results: 
     
-    <br>Book 1:-
-        <br>Corpus constant = -0.0008749058597921181
-        <br>Corpus exponent = 3.4079384636769596
+    Book 1:-
+        Corpus constant = -0.0008749058597921181
+        Corpus exponent = 3.4079384636769596
     
-    <br>Book 2:-
-        <br>Corpus constant = -0.0013291614836786346
-        <br>Corpus exponent = 2.4324147661619113
+    Book 2:-
+        Corpus constant = -0.0013291614836786346
+        Corpus exponent = 2.4324147661619113
         
