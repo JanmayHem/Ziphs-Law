@@ -14,6 +14,7 @@ This includes the Python code for Ziph's Law and how we can find Lambda, and k f
 • Then we make a scatter plot, find the line of best fit, and then plot them both.
 
 • Then we can easily get the slope and intercept of the straight line. Why do we need this?
+    
     <br>f(r) = c*r^(-alpha)
     <br>Taking log on both sides,
     <br>ln(f) = ln(c) - (alpha)(ln(r))
@@ -27,6 +28,7 @@ This includes the Python code for Ziph's Law and how we can find Lambda, and k f
 NOTE: All the files which have 1 are the files/graphs/results of Book1 (SCIENCE AND THE MODERN WORLD) and others are for Book2 (THE TEMPLE OF EARTH). 
 
 Final results: 
+    
     <br>Book 1:-
         <br>Corpus constant = -0.0008749058597921181
         <br>Corpus exponent = 3.4079384636769596
